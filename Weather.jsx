@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Home = () => {
+const Weather = () => {
   const[InpDatas,SetInpDatas]=useState()
   const[FetchedDatas,SetFetchedDatas]=useState()
   const InputEvent=(event)=>{
@@ -29,4 +29,4 @@ SetInpDatas(event.target.value)
   )
 }
 
-export default Home
+export default Weather;
